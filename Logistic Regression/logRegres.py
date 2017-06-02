@@ -30,7 +30,7 @@ def gradAscent(dataMatIn,classLabels):
         weights = weights + alpha * dataMatrix.transpose()* error   
     return weights
     
-    
+
     
     
     
